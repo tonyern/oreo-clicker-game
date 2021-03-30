@@ -5,6 +5,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
+        <!-- Bootstrap -->
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <!-- Styles -->
         <link rel="stylesheet" href="styles.css" />
 
@@ -13,10 +16,23 @@
     <body>
         <main>
             <div class="container">
-                <h1>Oreo Clicker</h1>
-                <h2 id="display-counter"></h2>
-                <img src="assets/oreo.jpeg" title="Please Click Me!" alt="One Oreo Cookie" 
-                    width="500" length="300" class="img-fluid" onclick="increment()" />
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Oreo Clicker</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 id="display-counter"></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="assets/oreo.jpeg" title="Please Click Me!" 
+                            alt="One Oreo Cookie" width="500" length="300" class="img-fluid"
+                            onclick="increment()" />
+                    </div>
+                </div>
             </div>
         </main>
 
